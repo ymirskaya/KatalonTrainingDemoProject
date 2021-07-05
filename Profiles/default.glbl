@@ -26,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'jdbc:sqlserver://SQL01-N;databaseName=OneLogin_QA;user=ovidclient;password=m1ndB3Nder!;integratedSecurity=false;'</initValue>
+      <initValue>'jdbc:sqlserver://SQL01-N;databaseName=OneLogin_QA;user=ovidclient;password=m1ndB3Nder;integratedSecurity=false;'</initValue>
       <name>DatabaseConn</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
