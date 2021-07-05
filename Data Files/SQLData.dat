@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>SQLData</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>3675d145-7169-4252-b2af-4990714c6edd</dataFileGUID>
+   <dataSourceUrl>jdbc:sqlserver://SQL01-N;databaseName=OneLogin_QA;user=ovidclient;password=m1ndB3Nder!;integratedSecurity=false;</dataSourceUrl>
+   <driver>DBData</driver>
+   <driverClassName>com.microsoft.sqlserver.jdbc.SQLServerDriver</driverClassName>
+   <isInternalPath>false</isInternalPath>
+   <password></password>
+   <query>select top 1 SecretCode from dbo.VerifySecretCode  where username = 'nabp.qa+67@gmail.com' order by 1 desc</query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <user></user>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

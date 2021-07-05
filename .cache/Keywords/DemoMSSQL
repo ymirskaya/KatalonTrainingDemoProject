@@ -1,0 +1,73 @@
+{
+  "keywordFileContentHash": "50FB72B900779BAB35B2C117FDD09B2C",
+  "keywordClasses": [
+    {
+      "name": "DemoMSSQL",
+      "keywordMethods": [
+        {
+          "name": "connectDB",
+          "parameters": [
+            {
+              "name": "DatabaseConn",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "executeQuery",
+          "parameters": [
+            {
+              "name": "queryString",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "closeDatabaseConnection",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "execute",
+          "parameters": [
+            {
+              "name": "queryString",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Execute non-query (usually INSERT/UPDATE/DELETE/COUNT/SUM...) on database\r\n\t * @param queryString a SQL statement\r\n\t * @return single value result of SQL statement\r\n\t */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

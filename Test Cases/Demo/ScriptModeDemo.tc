@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ScriptModeDemo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>906c6301-0cbb-40d0-957f-73f59386b6bb</testCaseGuid>
+   <variable>
+      <defaultValue>'Admin'</defaultValue>
+      <description></description>
+      <id>46babc04-d000-48b3-b131-e0c13ba414d1</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>
